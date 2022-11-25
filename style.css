@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 90vh;
+  width: 100%;
+  background: #ced7db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containner-clock {
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containner-clock .date {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.containner-clock .date span {
+  width: 1.5rem;
+  height: .9rem;
+  display: grid;
+  place-items: center;
+  font-size: .4rem;
+  font-family: 'Secular One', sans-serif;
+  background: #d2dee4;
+  border-radius: .3rem;
+  color: #000000b6;
+  box-shadow: -2px -2px 20px grey,
+  2px 2px 20px #fff;
+  margin: .2rem;
+}
+
+
+.containner-clock .time {
+  display: flex;
+  height: 90%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containner-clock .time span {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: grid;
+  place-items: center;
+  font-size: 2.5rem;
+  font-family: 'Secular One', sans-serif;
+  background: #d2dee4;
+  border-radius: .8rem;
+  color: #000000b6;
+  box-shadow: -5px -5px 20px grey,
+  5px 5px 20px #fff;
+}
